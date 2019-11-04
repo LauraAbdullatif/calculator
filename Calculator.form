@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="Calculator" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="219"/>
+    </constraints>
+    <properties>
+      <focusable value="true"/>
+      <opaque value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="15521" class="javax.swing.JTextField" binding="textDisplay">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Ubuntu Thin" size="14" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="80c8f" class="javax.swing.JButton" binding="btnEquals">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="bae5e" class="javax.swing.JButton" binding="btnSeven">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="7"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="true"/>
+        </clientProperties>
+      </component>
+      <component id="bf781" class="javax.swing.JButton" binding="btnEight">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="8"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ac8d0" class="javax.swing.JButton" binding="btnFour">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="4"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="d40f5" class="javax.swing.JButton" binding="btnOne">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="1"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4b849" class="javax.swing.JButton" binding="btnZero">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="0"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="9adea" class="javax.swing.JButton" binding="btnNine">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="9"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="deca0" class="javax.swing.JButton" binding="btnFive">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="5"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="f0a73" class="javax.swing.JButton" binding="btnTwo">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="2"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="fdf3" class="javax.swing.JButton" binding="btnPoint">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="."/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="933f9" class="javax.swing.JButton" binding="btnDivde">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="/"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="3f788" class="javax.swing.JButton" binding="btnMultiply">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="*"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="9bc58" class="javax.swing.JButton" binding="btnMinus">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="-"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="true"/>
+        </clientProperties>
+      </component>
+      <component id="c47f1" class="javax.swing.JButton" binding="btnPlus">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="+"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="true"/>
+        </clientProperties>
+      </component>
+      <component id="5f85d" class="javax.swing.JButton" binding="btnSix">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="6"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="true"/>
+        </clientProperties>
+      </component>
+      <component id="b94b4" class="javax.swing.JButton" binding="btnThree">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <opaque value="true"/>
+          <text value="3"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="true"/>
+        </clientProperties>
+      </component>
+      <component id="8c37a" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Ubuntu Thin" size="12" style="1"/>
+          <horizontalTextPosition value="4"/>
+          <opaque value="true"/>
+          <text value="Clear"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
